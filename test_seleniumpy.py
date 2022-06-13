@@ -29,7 +29,7 @@ def test_login( username, password):
 
 @pytest.mark.parametrize(
     "username, password",
-    [ ("locked_out_user", "secret_sauce")]
+    [ ("standard_user", "secret_sauce")]
 
 )
 def test_invalidlogin( username, password):
